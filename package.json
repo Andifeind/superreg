@@ -1,0 +1,15 @@
+{
+  "name": "superreg",
+  "version": "0.0.0",
+  "description": "Better regexp support for Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter lagoon-reporter tests/*.spec.js"
+  },
+  "keywords": [
+    "str",
+    "string"
+  ],
+  "author": "Andi Heinkelein <andifeind@noname-media.com>",
+  "license": "MIT"
+}
