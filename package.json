@@ -1,15 +1,21 @@
 {
   "name": "superreg",
   "version": "0.0.0",
-  "description": "Better regexp support for Javascript",
+  "description": "Better RegExp support for Javascript",
   "main": "index.js",
   "scripts": {
     "test": "mocha --reporter lagoon-reporter tests/*.spec.js"
   },
   "keywords": [
-    "str",
-    "string"
+    "reg",
+    "regexp",
+    "escape"
   ],
   "author": "Andi Heinkelein <andifeind@noname-media.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "inspect.js": "1.11.7",
+    "lagoon-reporter": "0.4.0",
+    "mocha": "5.2.0"
+  }
 }
